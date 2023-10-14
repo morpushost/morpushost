@@ -1,0 +1,13 @@
+:root {
+					--tawk-header-background-color: #00a79d !important;
+					--tawk-header-background-color-alpha: #00a79d50 !important;
+					--tawk-header-text-color: #ffffff !important;
+					--tawk-header-override-padding-top: 1rem !important;
+					--tawk-footer-override-padding-bottom: 0 !important;
+				}.tawk-visitor-chat-bubble {
+				background :  #e5e5e5 !important;
+				color :  #333333 !important;
+			}.tawk-agent-chat-bubble {
+				background :  #00968d !important;
+				color :  #ffffff !important;
+			}
