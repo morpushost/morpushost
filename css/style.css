@@ -451,7 +451,7 @@ button.dd_btn05[aria-expanded="true"]:before{background: url("/home/cobra/Downlo
 .testimonial_heading h2{font-size: 48px; line-height: 48px; color: #000; font-weight: 300; font-family: 'Fira Sans', sans-serif}
 .testimonial_slider_outer{background: url("/home/cobra/Downloads/site host Landing page/images/client_testimonial_bg.png") no-repeat top center; padding: 50px 90px 160px 90px; text-align: center}
 .testimonial_content_box figure{margin-bottom: 20px}
-.testimonial_content_box p{font-size: 16px; line-height: 24px; color: #000000; margin-bottom: 30px}
+.testimonial_content_box p{font-size: 16px; line-height: 24px; color: #; margin-bottom: 30px}
 .client_name{font-size: 24px; line-height: 32px; color: #fff; font-weight: 400; font-family: 'Fira Sans', sans-serif}
 .client_designation{font-size: 16px; line-height: 24px; color: #fff; font-weight: 400}
 
