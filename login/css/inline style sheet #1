@@ -1,0 +1,24 @@
+@font-face {
+ font-family:'Roboto';
+ font-style:normal;
+ font-weight:400;
+ src:url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf)format('truetype');
+}
+@font-face {
+ font-family:'Roboto';
+ font-style:normal;
+ font-weight:500;
+ src:url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format('truetype');
+}
+@font-face {
+ font-family:'Google Sans';
+ font-style:normal;
+ font-weight:400;
+ src:url(//fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owps.ttf)format('truetype');
+}
+@font-face {
+ font-family:'Google Sans';
+ font-style:normal;
+ font-weight:500;
+ src:url(//fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwM.ttf)format('truetype');
+}
