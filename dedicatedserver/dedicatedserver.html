@@ -8,9 +8,9 @@
     <title>Shopping Cart - morpushost</title>
     <!-- Styling -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
-<link href="dedicatedserver/css/all.min.css" rel="stylesheet">
-<link href="dedicatedserver/css/theme.min.css" rel="stylesheet">
-<link href="dedicatedserver/assets/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="../dedicatedserver/css/all.min.css" rel="stylesheet">
+<link href="../dedicatedserver/css/theme.min.css" rel="stylesheet">
+<link href="../dedicatedserver/css/fontawesome-all.min.css" rel="stylesheet">
 
 <script  charset="UTF-8" crossorigin="*"></script>
         markdownGuide = 'Markdown Guide',
@@ -27,7 +27,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1XZRSKCSNK', {
+  gtag('config', 'G-', {
   'cookie_domain': 'morpushost.com'
 });
 </script>
@@ -88,10 +88,10 @@ display: none !important;
         <div class="navbar navbar-light">
             <div class="container">
                 <a class="navbar-brand mr-3" href="/index.php">
-                                            <img src="/assets/img/logo.png" alt="morpushost" class="logo-img">
+                                            <img src="../images/logo.png" alt="morpushost" class="logo-img">
                                     </a>
 
-                <form method="post" action="/knowledgebase/search" class="form-inline ml-auto">
+                <form method="post" action="../knowledgebase/search" class="form-inline ml-auto">
 <input type="hidden" name="token" value="a79b88b26cdfd07d9b1fac1bcc6430222d93f404">
                     <div class="input-group search d-none d-xl-flex">
                         <div class="input-group-prepend">
@@ -105,7 +105,7 @@ display: none !important;
 
                 <ul class="navbar-nav toolbar">
                     <li class="nav-item ml-3">
-                        <a class="btn nav-link cart-btn" href="cart/cart.php?a=view">
+                        <a class="btn nav-link cart-btn" href="../cart/cart.php?a=view">
                             <i class="far fa-shopping-cart fa-fw"></i>
                             <span id="cartItemCount" class="badge badge-info">0</span>
                             <span class="sr-only">Shopping Cart</span>
@@ -122,7 +122,7 @@ display: none !important;
         <div class="navbar navbar-expand-xl main-navbar-wrapper">
             <div class="container">
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <form method="post" action="/knowledgebase/search" class="d-xl-none">
+                    <form method="post" action="../knowledgebase/search" class="d-xl-none">
 <input type="hidden" name="token" value="a79b88b26cdfd07d9b1fac1bcc6430222d93f404">
                         <div class="input-group search w-100 mb-2">
                             <div class="input-group-prepend">
@@ -135,7 +135,7 @@ display: none !important;
                     </form>
                     <ul id="nav" class="navbar-nav mr-auto">
                             <li menuitemname="Home" class="d-block no-collapse" id="Primary_Navbar-Home">
-        <a class="pr-4" href="/index.php">
+        <a class="pr-4" href="../index.php">
                         Home
                     </a>
             </li>
@@ -145,50 +145,50 @@ display: none !important;
                     </a>
                     <ul class="dropdown-menu">
                                                 <li menuitemname="Browse Products Services" class="dropdown-item" id="Primary_Navbar-Store-Browse_Products_Services">
-                        <a href="/store" class="dropdown-item px-2 py-0">
+                        <a href="../store" class="dropdown-item px-2 py-0">
                                                         Browse All
                                                     </a>
                     </li>
                                                                 <div class="dropdown-divider"></div>
                                                                 <li menuitemname="Offshore Shared Hosting" class="dropdown-item" id="Primary_Navbar-Store-Offshore_Shared_Hosting">
-                        <a href="sharedhostin/shared-hosting.html" class="dropdown-item px-2 py-0">
+                        <a href="../sharedhostin/shared-hosting.html" class="dropdown-item px-2 py-0">
                                                         Offshore Shared Hosting
                                                     </a>
                     </li>
                                                                 <li menuitemname="Offshore VPS" class="dropdown-item" id="Primary_Navbar-Store-Offshore_VPS">
-                        <a href="vps/vps.html" class="dropdown-item px-2 py-0">
+                        <a href="../vps/vps.html" class="dropdown-item px-2 py-0">
                                                         Offshore VPS
                                                     </a>
                     </li>
                                                                 <li menuitemname="Dedicated Server" class="dropdown-item" id="Primary_Navbar-Store-Dedicated_Server">
-                        <a href="dedicatedserver/dedicated-server.html" class="dropdown-item px-2 py-0">
+                        <a href="../dedicatedserver/dedicated-server.html" class="dropdown-item px-2 py-0">
                                                         Dedicated Server
                                                     </a>
                     </li>
                                         </ul>
             </li>
     <li menuitemname="Announcements" class="d-block" id="Primary_Navbar-Announcements">
-        <a class="pr-4" href="announcement/announcements.html">
+        <a class="pr-4" href="../announcement/announcements.html">
                         Announcements
                     </a>
             </li>
     <li menuitemname="Knowledgebase" class="d-block" id="Primary_Navbar-Knowledgebase">
-        <a class="pr-4" href="knowledgebase/knowledgebase.html">
+        <a class="pr-4" href="../knowledgebase/knowledgebase.html">
                         Knowledgebase
                     </a>
             </li>
     <li menuitemname="Network Status" class="d-block" id="Primary_Navbar-Network_Status">
-        <a class="pr-4" href="serverstatus/serverstatus.php">
+        <a class="pr-4" href="../serverstatus/serverstatus.php">
                         Network Status
                     </a>
             </li>
     <li menuitemname="Affiliates" class="d-block" id="Primary_Navbar-Affiliates">
-        <a class="pr-4" href="affiliates/affiliates.php">
+        <a class="pr-4" href="../affiliates/affiliates.php">
                         Affiliates
                     </a>
             </li>
     <li menuitemname="Contact Us" class="d-block" id="Primary_Navbar-Contact_Us">
-        <a class="pr-4" href="contact.php">
+        <a class="pr-4" href="../contact.php">
                         Contact Us
                     </a>
             </li>
@@ -207,18 +207,18 @@ display: none !important;
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
                                                 <li menuitemname="Login" class="dropdown-item" id="Secondary_Navbar-Account-Login">
-                        <a href="clientarea/clientarea.php" class="dropdown-item px-2 py-0">
+                        <a href="../clientarea/clientarea.php" class="dropdown-item px-2 py-0">
                                                         Login
                                                     </a>
                     </li>
                                                                 <li menuitemname="Register" class="dropdown-item" id="Secondary_Navbar-Account-Register">
-                        <a href="register/register.php" class="dropdown-item px-2 py-0">
+                        <a href="../register/register.php" class="dropdown-item px-2 py-0">
                                                         Register
                                                     </a>
                     </li>
                                                                 <div class="dropdown-divider"></div>
                                                                 <li menuitemname="Forgot Password?" class="dropdown-item" id="Secondary_Navbar-Account-Forgot_Password?">
-                        <a href="password/password/reset" class="dropdown-item px-2 py-0">
+                        <a href="../password/password/reset" class="dropdown-item px-2 py-0">
                                                         Forgot Password?
                                                     </a>
                     </li>
@@ -250,7 +250,7 @@ display: none !important;
                         <div class="col-12 primary-content">
 
 
-<link rel="stylesheet" type="text/css" href="/templates/orderforms/standard_cart/css/all.min.css?v=2f5ec8">
+<link rel="stylesheet" type="text/css" href="../dedicatedserver/css/all.min.css?v=2f5ec8">
 <script type="text/javascript" src="/templates/orderforms/standard_cart/js/scripts.min.js?v=2f5ec8"></script>
 <div id="order-standard_cart">
     <div class="row">
@@ -269,17 +269,20 @@ display: none !important;
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuitemname="Offshore Shared Hosting" href="/home/cobra/Downloads/site host Landing page/store/sharedhosting/shared-hosting.html" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Offshore_Shared_Hosting">
+    <a menuitemname="Offshore Shared Hosting" href="../sharedhosting/shared-hosting.html" 
+        class="list-group-item list-group-item-action" 
+        id="Secondary_Sidebar-Categories-Offshore_Shared_Hosting">
                             
                             Offshore Shared Hosting
 
                                                     </a>
-                                                                                <a menuitemname="Offshore VPS" href="/home/cobra/Downloads/site host Landing page/store/vps/vps.html" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Categories-Offshore_VPS">
+         <a menuitemname="Offshore VPS" href="../vps/vps.html" class="list-group-item list-group-item-action" 
+             id="Secondary_Sidebar-Categories-Offshore_VPS">
                             
                             Offshore VPS
 
                                                     </a>
-                                                                                <a menuitemname="Dedicated Server" href="/home/cobra/Downloads/site host Landing page/store/dedicatedserver/dedicated-server.html" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Dedicated_Server">
+     <a menuitemname="Dedicated Server" href="../dedicatedserver/dedicated-server.html" class="list-group-item list-group-item-action active" id="Secondary_Sidebar-Categories-Dedicated_Server">
                             
                             Dedicated Server
 
@@ -302,7 +305,7 @@ display: none !important;
 
         
                     <div class="list-group collapsable-card-body">
-                                                            <a menuitemname="View Cart" href="/home/cobra/Downloads/site host Landing page/store/cart/cart.php?a=view" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
+    <a menuitemname="View Cart" href="../cart/cart.php?a=view" class="list-group-item list-group-item-action" id="Secondary_Sidebar-Actions-View_Cart">
                                                             <i class="fas fa-shopping-cart fa-fw"></i>&nbsp;
                             
                             View Cart
@@ -359,19 +362,19 @@ display: none !important;
     <div class="panel-body card-body">
         <form role="form">
             <select class="form-control custom-select" onchange="selectChangeNavigate(this)">
-                                                    <option menuitemname="Offshore Shared Hosting" value="/store/shared-hosting" class="list-group-item">
+          <option menuitemname="Offshore Shared Hosting" value="../store/shared-hosting" class="list-group-item">
                         Offshore Shared Hosting
 
                                             </option>
-                                                        <option menuitemname="Offshore VPS" value="/store/vps" class="list-group-item">
+                                                        <option menuitemname="Offshore VPS" value="../store/vps" class="list-group-item">
                         Offshore VPS
 
                                             </option>
-                                                        <option menuitemname="Dedicated Server" value="/store/dedicated-server" class="list-group-item" selected="selected">
+            <option menuitemname="Dedicated Server" value="../store/dedicated-server" class="list-group-item" selected="selected">
                         Dedicated Server
 
                                             </option>
-                                                                                                            </select>
+                    </select>
         </form>
     </div>
 
@@ -389,7 +392,7 @@ display: none !important;
     <div class="panel-body card-body">
         <form role="form">
             <select class="form-control custom-select" onchange="selectChangeNavigate(this)">
-                                                    <option menuitemname="View Cart" value="/cart.php?a=view" class="list-group-item">
+                                                    <option menuitemname="View Cart" value="../cart.php?a=view" class="list-group-item">
                         View Cart
 
                                             </option>
@@ -472,7 +475,7 @@ display: none !important;
                                                                                     Monthly
                                                                                 <br>
                                                                                                             </div>
-                                <a href="dedicatedserver/dedicated-server.html/bulgaria-budget" class="btn btn-success btn-sm btn-order-now" id="product83-order-button">
+                                <a href="../dedicatedserver/dedicated-server.html/bulgaria-budget" class="btn btn-success btn-sm btn-order-now" id="product83-order-button">
                                     <i class="fas fa-shopping-cart"></i>
                                     Order Now
                                 </a>
@@ -516,7 +519,7 @@ display: none !important;
                                                                                     Monthly
                                                                                 <br>
                                                                                                             </div>
-                                <a href="dedicatedserver/dedicated-server.html/bulgaria-1" class="btn btn-success btn-sm btn-order-now" id="product25-order-button">
+                                <a href="../dedicatedserver/dedicated-server.html/bulgaria-1" class="btn btn-success btn-sm btn-order-now" id="product25-order-button">
                                     <i class="fas fa-shopping-cart"></i>
                                     Order Now
                                 </a>
@@ -555,7 +558,7 @@ display: none !important;
                                                                                     Monthly
                                                                                 <br>
                                                                                                             </div>
-                                <a href="dedicatedserver/dedicated-server.html/bg-e3-1585lv5" class="btn btn-success btn-sm btn-order-now" id="product94-order-button">
+                                <a href="../dedicatedserver/dedicated-server.html/bg-e3-1585lv5" class="btn btn-success btn-sm btn-order-now" id="product94-order-button">
                                     <i class="fas fa-shopping-cart"></i>
                                     Order Now
                                 </a>
