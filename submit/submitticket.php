@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-app.js" charset="UTF-8" crossorigin="*"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/uEf7E1417z6GNSkRx7AyL8K8/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-aQf8qfwy0VOXVIZtc2s7/0KF+ahQ+5vfZVvDnt+GFLzQtID+kFAS/ogSTPva5pz9"></script>
+<html lang="en"><head><script src="" charset="UTF-8" crossorigin="*"></script>
     <meta name="robots" content="noindex,nofollow">
     <meta name="googlebot" content="noindex">
     <meta name="googlebot-news" content="nosnippet">
@@ -9,9 +9,9 @@
     <!-- Styling -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&amp;display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/fcfdaf0a58.js" crossorigin="anonymous"></script>
-<link href="/home/cobra/Downloads/site host Landing page/store/submit/css/all.min.css?v=2f5ec8" rel="stylesheet">
-<link href="/home/cobra/Downloads/site host Landing page/store/submit/css/theme.min.css?v=2f5ec8" rel="stylesheet">
-<link href="/assets/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="../submit/css/all.min.css?v=2f5ec8" rel="stylesheet">
+<link href="../submit/css/theme.min.css?v=2f5ec8" rel="stylesheet">
+<link href="../css/fontawesome-all.min.css" rel="stylesheet">
 
 <script src="/templates/twenty-one/js/scripts.min.js?v=2f5ec8"></script>
 
@@ -19,12 +19,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-1XZRSKCSNK', {
+  gtag('config', 'G-1K', {
   'cookie_domain': 'morpushost.com'
 });
 </script>
 
-<script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-2c78ba82.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-696bc286.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-f1596d96.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-2d0b383d.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-48f46bef.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-2d0b9454.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/65040be8d34/js/twk-chunk-07cad36d.js"></script><style type="text/css">#km57da3fb7ao1695072127708 {outline:none !important;
+<script charset="utf-8" src=""></script><script charset="utf-8" <style type="text/css">#km57da3fb7ao1695072127708 {outline:none !important;
 visibility:visible !important;
 resize:none !important;
 box-shadow:none !important;
@@ -78,11 +78,11 @@ display: none !important;
         
         <div class="navbar navbar-light">
             <div class="container">
-                <a class="navbar-brand mr-3" href="/index.php">
-                                            <img src="/assets/img/logo.png" alt="morpushost" class="logo-img">
+                <a class="navbar-brand mr-3" href="../index.php">
+                                            <img src="../assets/img/logo.png" alt="morpushost" class="logo-img">
                                     </a>
 
-                <form method="post" action="/knowledgebase/search" class="form-inline ml-auto">
+                <form method="post" action="../knowledgebase/search" class="form-inline ml-auto">
 <input type="hidden" name="token" value="65fd36996c6f6d62131074fb51818c87dc5938f9">
                     <div class="input-group search d-none d-xl-flex">
                         <div class="input-group-prepend">
@@ -96,7 +96,7 @@ display: none !important;
 
                 <ul class="navbar-nav toolbar">
                     <li class="nav-item ml-3">
-                        <a class="btn nav-link cart-btn" href="/home/cobra/Downloads/site host Landing page/store/cart/cart.php?a=view">
+                        <a class="btn nav-link cart-btn" href="../cart/cart.php?a=view">
                             <i class="far fa-shopping-cart fa-fw"></i>
                             <span id="cartItemCount" class="badge badge-info">0</span>
                             <span class="sr-only">Shopping Cart</span>
@@ -113,7 +113,7 @@ display: none !important;
         <div class="navbar navbar-expand-xl main-navbar-wrapper">
             <div class="container">
                 <div class="collapse navbar-collapse" id="mainNavbar">
-                    <form method="post" action="/knowledgebase/search" class="d-xl-none">
+                    <form method="post" action="../knowledgebase/search" class="d-xl-none">
 <input type="hidden" name="token" value="65fd36996c6f6d62131074fb51818c87dc5938f9">
                         <div class="input-group search w-100 mb-2">
                             <div class="input-group-prepend">
@@ -126,7 +126,7 @@ display: none !important;
                     </form>
                     <ul id="nav" class="navbar-nav mr-auto">
                             <li menuitemname="Home" class="d-block no-collapse" id="Primary_Navbar-Home">
-        <a class="pr-4" href="/index.php">
+        <a class="pr-4" href="../index.php">
                         Home
                     </a>
             </li>
@@ -141,45 +141,45 @@ display: none !important;
                                                     </a>
                     </li>
                                                                 <div class="dropdown-divider"></div>
-                                                                <li menuitemname="Offshore Shared Hosting" class="dropdown-item" id="Primary_Navbar-Store-Offshore_Shared_Hosting">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/sharedhostin/shared-hosting.html" class="dropdown-item px-2 py-0">
+                    <li menuitemname="Offshore Shared Hosting" class="dropdown-item" id="Primary_Navbar-Store-Offshore_Shared_Hosting">
+                        <a href="../sharedhostin/shared-hosting.html" class="dropdown-item px-2 py-0">
                                                         Offshore Shared Hosting
                                                     </a>
                     </li>
                                                                 <li menuitemname="Offshore VPS" class="dropdown-item" id="Primary_Navbar-Store-Offshore_VPS">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/vps/vps.html" class="dropdown-item px-2 py-0">
+                        <a href="../store/vps/vps.html" class="dropdown-item px-2 py-0">
                                                         Offshore VPS
                                                     </a>
                     </li>
                                                                 <li menuitemname="Dedicated Server" class="dropdown-item" id="Primary_Navbar-Store-Dedicated_Server">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/dedicatedserver/dedicated-server.html" class="dropdown-item px-2 py-0">
+                        <a href="../store/dedicatedserver/dedicated-server.html" class="dropdown-item px-2 py-0">
                                                         Dedicated Server
                                                     </a>
                     </li>
                                         </ul>
             </li>
     <li menuitemname="Announcements" class="d-block" id="Primary_Navbar-Announcements">
-        <a class="pr-4" href="/home/cobra/Downloads/site host Landing page/store/announcement/announcements.html">
+        <a class="pr-4" href="../announcement/announcements.html">
                         Announcements
                     </a>
             </li>
     <li menuitemname="Knowledgebase" class="d-block" id="Primary_Navbar-Knowledgebase">
-        <a class="pr-4" href="/home/cobra/Downloads/site host Landing page/store/knowledgebase/knowledgebase.html">
+        <a class="pr-4" href="../knowledgebase/knowledgebase.html">
                         Knowledgebase
                     </a>
             </li>
     <li menuitemname="Network Status" class="d-block" id="Primary_Navbar-Network_Status">
-        <a class="pr-4" href="/home/cobra/Downloads/site host Landing page/store/serverstatus/serverstatus.php">
+        <a class="pr-4" href="../serverstatus/serverstatus.php">
                         Network Status
                     </a>
             </li>
     <li menuitemname="Affiliates" class="d-block" id="Primary_Navbar-Affiliates">
-        <a class="pr-4" href="/home/cobra/Downloads/site host Landing page/store/affiliates//affiliates.php">
+        <a class="pr-4" href="../affiliates//affiliates.php">
                         Affiliates
                     </a>
             </li>
     <li menuitemname="Contact Us" class="d-block" id="Primary_Navbar-Contact_Us">
-        <a class="pr-4" href="/home/cobra/Downloads/site host Landing page/store/contact/contact.php">
+        <a class="pr-4" href="../contact/contact.php">
                         Contact Us
                     </a>
             </li>
@@ -198,18 +198,18 @@ display: none !important;
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
                                                 <li menuitemname="Login" class="dropdown-item" id="Secondary_Navbar-Account-Login">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/clientarea/clientarea.php" class="dropdown-item px-2 py-0">
+                        <a href="../clientarea/clientarea.php" class="dropdown-item px-2 py-0">
                                                         Login
                                                     </a>
                     </li>
                                                                 <li menuitemname="Register" class="dropdown-item" id="Secondary_Navbar-Account-Register">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/register/register.php" class="dropdown-item px-2 py-0">
+                        <a href="../register/register.php" class="dropdown-item px-2 py-0">
                                                         Register
                                                     </a>
                     </li>
                                                                 <div class="dropdown-divider"></div>
                                                                 <li menuitemname="Forgot Password?" class="dropdown-item" id="Secondary_Navbar-Account-Forgot_Password?">
-                        <a href="/home/cobra/Downloads/site host Landing page/store/password/password/reset" class="dropdown-item px-2 py-0">
+                        <a href="../password/password/reset" class="dropdown-item px-2 py-0">
                                                         Forgot Password?
                                                     </a>
                     </li>
@@ -226,13 +226,13 @@ display: none !important;
         <div class="container">
             <ol class="breadcrumb">
             <li class="breadcrumb-item">
-            <a href="/home/cobra/Downloads/site host Landing page/store/index.php">            Portal Home
+            <a href="../index.php">            Portal Home
             </a>        </li>
             <li class="breadcrumb-item">
-            <a href="/home/cobra/Downloads/site host Landing page/store/client/clientarea.php">            Client Area
+            <a href="../client/clientarea.php">            Client Area
             </a>        </li>
             <li class="breadcrumb-item">
-            <a href="/home/cobra/Downloads/site host Landing page/store/support/supporttickets.php">            Support Tickets
+            <a href="../support/supporttickets.php">            Support Tickets
             </a>        </li>
             <li class="breadcrumb-item active" aria-current="page">
                         Submit Ticket
@@ -250,7 +250,7 @@ display: none !important;
                         <div class="col-12 primary-content">
 
 
-<form method="post" action="/home/cobra/Downloads/site host Landing page/store/submit/submitticket.php?step=3" enctype="multipart/form-data" role="form">
+<form method="post" action="../submit/submitticket.php?step=3" enctype="multipart/form-data" role="form">
 <input type="hidden" name="token" value="65fd36996c6f6d62131074fb51818c87dc5938f9">
 
 <div class="card">
@@ -368,7 +368,7 @@ display: none !important;
             <button type="submit" id="openTicketSubmit" class="btn btn-primary disable-on-click btn-recaptcha btn-recaptcha-invisible">
                 Submit
             </button>
-            <a href="/home/cobra/Downloads/site host Landing page/store/support/supporttickets.php" class="btn btn-default">Cancel</a>
+            <a href="../supporttickets.php" class="btn btn-default">Cancel</a>
         </p>
 
     </div>
@@ -410,7 +410,7 @@ display: none !important;
 
             <ul class="nav justify-content-center justify-content-lg-start mb-7">
                 <li class="nav-item">
-                    <a class="nav-link" href="/home/cobra/Downloads/site host Landing page/store/contact/contact.php">
+                    <a class="nav-link" href="../contact/contact.php">
                         Contact Us
                     </a>
                 </li>
@@ -428,7 +428,7 @@ display: none !important;
     <div id="fullpage-overlay" class="w-hidden" style="display: none;">
         <div class="outer-wrapper">
             <div class="inner-wrapper">
-                <img src="/assets/img/overlay-spinner.svg" alt="">
+                <img src="../images/overlay-spinner.svg" alt="">
                 <br>
                 <span class="msg"></span>
             </div>
@@ -464,7 +464,7 @@ display: none !important;
         </div>
     </div>
 
-    <form method="get" action="/submitticket.php?step=2&amp;deptid=1&amp;">
+    <form method="get" action="../submitticket.php?step=2&amp;deptid=1&amp;">
         <div class="modal modal-localisation" id="modalChooseLanguage" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -671,7 +671,7 @@ display: none !important;
                                 Generate new password
                             </button>
                             <button type="button" class="btn btn-default btn-sm copy-to-clipboard" data-clipboard-target="#inputGeneratePasswordOutput">
-                                <img src="/assets/img/clippy.svg" alt="Copy to clipboard" width="15">
+                                <img src="../images/clippy.svg" alt="Copy to clipboard" width="15">
                                 Copy
                             </button>
                         </div>
