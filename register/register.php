@@ -14,6 +14,12 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 
+// Include PHPMailer autoloader
+require 'vendor/autoload.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 // Server-side validation and sanitization
 $errors = [];
 
@@ -41,11 +47,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt = $pdo->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
         $stmt->execute([$username, $email, $hashedPassword]);
 
-        // Generate and store OTP in the database (you need to implement this part)
+        // Generate and store OTP in the database
         $otp = generateOTP();
         storeOTP($pdo, $email, $otp);
 
-        // Send verification email (you need to implement this part)
+        // Send verification email
+        sendVerificationEmail($email, $otp);
 
         // Redirect to OTP verification page
         header('Location: verify_otp.php?email=' . urlencode($email));
@@ -79,6 +86,37 @@ function storeOTP($pdo, $email, $otp)
     // For simplicity, you can create an OTP table with columns (email, otp, timestamp)
     $stmt = $pdo->prepare("INSERT INTO otps (email, otp) VALUES (?, ?)");
     $stmt->execute([$email, $otp]);
+}
+
+function sendVerificationEmail($to, $otp)
+{
+    // Initialize PHPMailer
+    $mail = new PHPMailer(true);
+
+    try {
+        // Server settings
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.example.com';  // SMTP server
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'your_smtp_username';  // SMTP username
+        $mail->Password   = 'your_smtp_password';  // SMTP password
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
+
+        // Recipients
+        $mail->setFrom('from@example.com', 'Your Website');
+        $mail->addAddress($to);
+
+        // Content
+        $mail->isHTML(true);
+        $mail->Subject = 'Email Verification';
+        $mail->Body    = 'Your OTP for email verification is: ' . $otp;
+
+        // Send email
+        $mail->send();
+    } catch (Exception $e) {
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    }
 }
 ?>
 
